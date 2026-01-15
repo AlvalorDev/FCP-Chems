@@ -53,13 +53,13 @@
     <HediffDef ParentName="AddictionBase">
         <defName>FCP_MedXAddiction</defName>
         <label>Med-X addiction</label>
-        <description>A chemical addiction to Med-X. Long-term presence of Med-X has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
-        \nWithout regular doses of Med-X, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+        <description>A chemical addiction to Med-X. Long-term presence of Med-X has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.Without regular doses of Med-X, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
         <hediffClass>Hediff_Addiction</hediffClass>
-        <causesNeed>Chemical_FCP_MedX</causesNeed>
+        <chemicalNeed>Chemical_FCP_MedX</chemicalNeed>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
                 <severityPerDay>-0.0333</severityPerDay>
+                <showDaysToRecover>true</showDaysToRecover>
             </li>
         </comps>
         <stages>
