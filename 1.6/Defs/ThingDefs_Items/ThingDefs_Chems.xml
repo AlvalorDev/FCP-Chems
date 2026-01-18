@@ -45,7 +45,7 @@
             </outcomeDoers>
         </ingestible>
         <recipeMaker>
-            <researchPrerequisite>FCP_Research_Medicinal_Drugs</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Stimpak_Production</researchPrerequisite>
             <recipeUsers>
                 <li>FCP_Production_Chemistry_Workbench</li>
             </recipeUsers>
@@ -107,7 +107,7 @@
             </outcomeDoers>
         </ingestible>
         <recipeMaker>
-            <researchPrerequisite>FCP_Research_Medicinal_Drugs</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Stimpak_Production</researchPrerequisite>
             <recipeUsers>
                 <li>FCP_Production_Chemistry_Workbench</li>
             </recipeUsers>
@@ -169,7 +169,7 @@
             </outcomeDoers>
         </ingestible>
         <recipeMaker>
-            <researchPrerequisite>FCP_Research_Medicinal_Drugs</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Stimpak_Production</researchPrerequisite>
             <recipeUsers>
                 <li>FCP_Production_Chemistry_Workbench</li>
             </recipeUsers>
@@ -231,7 +231,7 @@
             </outcomeDoers>
         </ingestible>
         <recipeMaker>
-            <researchPrerequisite>FCP_Research_Medicinal_Drugs</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Stimpak_Production</researchPrerequisite>
             <recipeUsers>
                 <li>FCP_Production_Chemistry_Workbench</li>
             </recipeUsers>
@@ -451,7 +451,7 @@
             <HediffDef>FCP_Hediff_RadawayHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Radaway/FCP_Radaway</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -483,9 +483,9 @@
             </outcomeDoers>
         </ingestible>
         <recipeMaker>
-            <researchPrerequisite>DrugProduction</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_RadAway_Manufacturing</researchPrerequisite>
             <recipeUsers>
-                <li>DrugLab</li>
+                <li>FCP_Production_Chemistry_Workbench</li>
             </recipeUsers>
             <soundWorking>Recipe_Drug</soundWorking>
         </recipeMaker>
@@ -515,7 +515,7 @@
             <HediffDef>FCP_Hediff_HealingPowderHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Healing_Powder/FCP_Healing_Powder</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -580,7 +580,7 @@
             <HediffDef>FCP_Hediff_MedXHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Med_X/FCP_Med_X</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -644,7 +644,7 @@
             <HediffDef>FCP_Hediff_HydraHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Hydra/FCP_Hydra</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -708,7 +708,7 @@
             <HediffDef>FCP_Hediff_DoctorsBagHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Doctors_Bag/FCP_Doctors_Bag</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -773,7 +773,7 @@
             <HediffDef>FCP_Hediff_BloodPackHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Bloodbag/FCP_Bloodbag</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -825,7 +825,7 @@
             <HediffDef>FCP_Hediff_JetHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Inhalers/Jet/FCP_Jet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -892,7 +892,7 @@
             <HediffDef>FCP_Hediff_PsychoHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Psychos/Psycho/FCP_Psycho</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -959,7 +959,7 @@
             <HediffDef>FCP_Hediff_BuffoutHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Buffout/FCP_Buffout</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1025,7 +1025,7 @@
             <HediffDef>FCP_Hediff_MentatsHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Mentats/Mentats/FCP_Mentats</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1092,7 +1092,7 @@
             <HediffDef>FCP_Hediff_TurboHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Turbo/FCP_Turbo</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1158,7 +1158,7 @@
             <HediffDef>FCP_Hediff_SlasherHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Psychos/Slasher/FCP_Slasher</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1225,7 +1225,7 @@
             <HediffDef>FCP_Hediff_SteadyHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Steady/FCP_Steady</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1289,7 +1289,7 @@
             <HediffDef>FCP_Hediff_CateyeHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Cateye/FCP_Cateye</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1353,7 +1353,7 @@
             <HediffDef>FCP_Hediff_AddictolRecovery</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Inhalers/Addictol/FCP_Addictol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1417,7 +1417,7 @@
             <HediffDef>FCP_Hediff_FixerRecovery</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Mentats/Fixer/FCP_Fixer</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1482,7 +1482,7 @@
             <HediffDef>FCP_Hediff_UltrajetHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Inhalers/Ultra_Jet/FCP_Ultra_Jet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1550,7 +1550,7 @@
             <HediffDef>FCP_Hediff_RocketHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Inhalers/Rocket/FCP_Rocket</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1617,7 +1617,7 @@
             <HediffDef>FCP_Hediff_BerryMentatsHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Mentats/Berry_Mentats/FCP_Berry_Mentats</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1684,7 +1684,7 @@
             <HediffDef>FCP_Hediff_GrapeMentatsHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Mentats/Grape_Mentats/FCP_Grape_Mentats</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1751,7 +1751,7 @@
             <HediffDef>FCP_Hediff_OrangeMentatsHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Mentats/Orange_Mentats/FCP_Orange_Mentats</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1818,7 +1818,7 @@
             <HediffDef>FCP_Hediff_PartyTimeMentatsHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Mentats/Party_Time_Mentats/FCP_Party_Time_Mentats</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1885,7 +1885,7 @@
             <HediffDef>FCP_Hediff_DayTripperHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Daytripper/FCP_Daytripper</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -1951,7 +1951,7 @@
             <HediffDef>FCP_Hediff_XCellHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/X_Cell/FCP_X_Cell</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -2016,7 +2016,7 @@
             <HediffDef>FCP_Hediff_DaddyOHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Daddy_O/FCP_Daddy_O</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>
@@ -2067,70 +2067,6 @@
                 <addictiveness>0.06</addictiveness>
                 <listOrder>1280</listOrder>
                 <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
-            </li>
-        </comps>
-    </ThingDef>
-
-    <!--__________ Atomic Cocktail __________-->
-
-    <!-- Atomic Cocktail Drug -->
-
-    <ThingDef ParentName="MakeableDrugBase" MayRequire="Rick.FCP.Plants">
-        <defName>FCP_Chem_Atomic_Cocktail</defName>
-        <label>Atomic Cocktail</label>
-        <description>A pre-war mixed drink that combines radiation resistance with physical enhancement. The Atomic Cocktail was popular among military personnel in high-radiation zones, providing both protection and a strength boost.\n\nDespite its name, it's a carefully formulated pharmaceutical beverage rather than a recreational drink.</description>
-        <descriptionHyperlinks>
-            <HediffDef>FCP_Hediff_AtomicCocktailHigh</HediffDef>
-        </descriptionHyperlinks>
-        <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <rotatable>false</rotatable>
-        <statBases>
-            <WorkToMake>600</WorkToMake>
-            <MarketValue>45</MarketValue>
-            <Mass>0.20</Mass>
-        </statBases>
-        <techLevel>Industrial</techLevel>
-        <ingestible>
-            <foodType>Fluid, Processed</foodType>
-            <baseIngestTicks>120</baseIngestTicks>
-            <nurseable>true</nurseable>
-            <drugCategory>Medical</drugCategory>
-            <ingestSound>Ingest_Beer</ingestSound>
-            <ingestHoldOffsetStanding>
-                <northDefault>
-                    <offset>(0.18,0,0)</offset>
-                </northDefault>
-            </ingestHoldOffsetStanding>
-            <ingestCommandString>Drink {0}</ingestCommandString>
-            <ingestReportString>Drinking {0}.</ingestReportString>
-            <useEatingSpeedStat>false</useEatingSpeedStat>
-            <outcomeDoers>
-                <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>FCP_Hediff_AtomicCocktailHigh</hediffDef>
-                    <severity>1.0</severity>
-                </li>
-            </outcomeDoers>
-        </ingestible>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Chem_Combinations</researchPrerequisite>
-            <recipeUsers>
-                <li>DrugLab</li>
-            </recipeUsers>
-            <soundWorking>Recipe_Drug</soundWorking>
-        </recipeMaker>
-        <costList>
-            <Neutroamine>2</Neutroamine>
-            <FCP_Raw_Mutfruit>1</FCP_Raw_Mutfruit>
-        </costList>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Common</rarity>
-            </li>
-            <li Class="CompProperties_Drug">
-                <listOrder>1290</listOrder>
             </li>
         </comps>
     </ThingDef>
@@ -2212,7 +2148,7 @@
             <HediffDef>FCP_Hediff_DixonsJetHigh</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
-            <texPath>Chems/Rad_X/FCP_Rad_X</texPath>
+            <texPath>Chems/Inhalers/Dixons_Jet/FCP_Dixons_Jet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <rotatable>false</rotatable>

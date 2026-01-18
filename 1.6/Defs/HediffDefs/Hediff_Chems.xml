@@ -11,7 +11,12 @@
         <defaultLabelColor>(180,220,180)</defaultLabelColor>
         <label>diluted stimpak</label>
         <labelNoun>diluted stimpak</labelNoun>
-        <description>A watered-down stimulation pack that provides minor healing over time.</description>
+        <description>A watered-down stimulation pack that provides minor healing over time. The chemicals cause mild discomfort during healing.</description>
+        <stages>
+            <li>
+                <painOffset>0.05</painOffset>
+            </li>
+        </stages>
         <comps>
             <li Class="StimPacks.Comps.StimPackProp">
                 <HealPermanentInjuries>false</HealPermanentInjuries>
@@ -33,7 +38,18 @@
         <defaultLabelColor>(220,220,180)</defaultLabelColor>
         <label>stimpak</label>
         <labelNoun>stimpak</labelNoun>
-        <description>A standard stimulation delivery system for healing injuries. The most common medical item in the wasteland.</description>
+        <description>A standard stimulation delivery system for healing injuries. The most common medical item in the wasteland. The rapid cellular regeneration causes discomfort and mild disorientation.</description>
+        <stages>
+            <li>
+                <painOffset>0.10</painOffset>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
         <comps>
             <li Class="StimPacks.Comps.StimPackProp">
                 <HealPermanentInjuries>false</HealPermanentInjuries>
@@ -47,7 +63,7 @@
         </comps>
     </HediffDef>
 
-    <!-- Ultra Stimpak - Enhanced version -->
+    <!-- Ultra Stimpak - Most powerful version -->
 
     <HediffDef>
         <defName>FCP_Hediff_Ultra_Stimpak</defName>
@@ -55,21 +71,36 @@
         <defaultLabelColor>(220,200,140)</defaultLabelColor>
         <label>ultra stimpak</label>
         <labelNoun>ultra stimpak</labelNoun>
-        <description>An enhanced stimulation pack with improved healing properties and faster action.</description>
+        <description>The pinnacle of pre-war medical technology. Provides extremely rapid and extensive healing, even mending old injuries. The intense cellular regeneration causes significant pain and exhaustion.</description>
+        <stages>
+            <li>
+                <painOffset>0.15</painOffset>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.10</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
         <comps>
             <li Class="StimPacks.Comps.StimPackProp">
-                <HealPermanentInjuries>false</HealPermanentInjuries>
+                <HealPermanentInjuries>true</HealPermanentInjuries>
                 <HealMissingBodyParts>false</HealMissingBodyParts>
                 <RemoveHediffWhenDone>True</RemoveHediffWhenDone>
                 <ScaleHealedAmountWithTotalHitPoints>true</ScaleHealedAmountWithTotalHitPoints>
-                <HealedAmount>40</HealedAmount>
-                <TickMinimumBetweenHealing>18</TickMinimumBetweenHealing>
-                <TickMaximumBetweenHealing>22</TickMaximumBetweenHealing>
+                <HealedAmount>85</HealedAmount>
+                <TickMinimumBetweenHealing>10</TickMinimumBetweenHealing>
+                <TickMaximumBetweenHealing>14</TickMaximumBetweenHealing>
             </li>
         </comps>
     </HediffDef>
 
-    <!-- Super Stimpak - Most powerful single-use version -->
+    <!-- Super Stimpak - Enhanced military-grade version -->
 
     <HediffDef>
         <defName>FCP_Hediff_Super_Stimpak</defName>
@@ -77,16 +108,27 @@
         <defaultLabelColor>(255,200,100)</defaultLabelColor>
         <label>super stimpak</label>
         <labelNoun>super stimpak</labelNoun>
-        <description>A potent military-grade stimulation pack that provides rapid and extensive healing.</description>
+        <description>A potent military-grade stimulation pack that provides rapid and extensive healing. The powerful chemicals cause considerable pain and grogginess.</description>
+        <stages>
+            <li>
+                <painOffset>0.12</painOffset>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.08</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
         <comps>
             <li Class="StimPacks.Comps.StimPackProp">
-                <HealPermanentInjuries>true</HealPermanentInjuries>
+                <HealPermanentInjuries>false</HealPermanentInjuries>
                 <HealMissingBodyParts>false</HealMissingBodyParts>
                 <RemoveHediffWhenDone>True</RemoveHediffWhenDone>
                 <ScaleHealedAmountWithTotalHitPoints>true</ScaleHealedAmountWithTotalHitPoints>
-                <HealedAmount>75</HealedAmount>
-                <TickMinimumBetweenHealing>12</TickMinimumBetweenHealing>
-                <TickMaximumBetweenHealing>16</TickMaximumBetweenHealing>
+                <HealedAmount>60</HealedAmount>
+                <TickMinimumBetweenHealing>14</TickMinimumBetweenHealing>
+                <TickMaximumBetweenHealing>18</TickMaximumBetweenHealing>
             </li>
         </comps>
     </HediffDef>
@@ -244,8 +286,14 @@
         </comps>
         <stages>
             <li>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.05</offset>
+                    </li>
+                </capMods>
                 <statOffsets>
-                    <InjuryHealingFactor>0.25</InjuryHealingFactor>
+                    <InjuryHealingFactor>0.15</InjuryHealingFactor>
                 </statOffsets>
             </li>
         </stages>
@@ -1824,36 +1872,6 @@
                         <offset>0.15</offset>
                     </li>
                 </capMods>
-            </li>
-        </stages>
-    </HediffDef>
-
-    <!--__________ Atomic Cocktail __________-->
-
-    <!-- Atomic Cocktail High -->
-
-    <HediffDef>
-        <defName>FCP_Hediff_AtomicCocktailHigh</defName>
-        <hediffClass>HediffWithComps</hediffClass>
-        <label>fortified by Atomic Cocktail</label>
-        <labelNoun>Atomic Cocktail fortification</labelNoun>
-        <description>Enhanced radiation resistance and physical strength from the Atomic Cocktail.</description>
-        <defaultLabelColor>(0.2,1,0.2)</defaultLabelColor>
-        <scenarioCanAdd>true</scenarioCanAdd>
-        <maxSeverity>1.0</maxSeverity>
-        <isBad>false</isBad>
-        <comps>
-            <li Class="HediffCompProperties_SeverityPerDay">
-                <severityPerDay>-1.2</severityPerDay>
-            </li>
-        </comps>
-        <stages>
-            <li>
-                <statOffsets>
-                    <CarryingCapacity>25</CarryingCapacity>
-                    <MeleeDamageFactor>0.20</MeleeDamageFactor>
-                    <ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
-                </statOffsets>
             </li>
         </stages>
     </HediffDef>
