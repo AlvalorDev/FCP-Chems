@@ -18,7 +18,7 @@
             </li>
         </stages>
         <comps>
-            <li Class="StimPacks.Comps.StimPackProp">
+            <li Class="FCP.Core.Stims.HediffCompProperties_Stimpack">
                 <HealPermanentInjuries>false</HealPermanentInjuries>
                 <HealMissingBodyParts>false</HealMissingBodyParts>
                 <RemoveHediffWhenDone>True</RemoveHediffWhenDone>
@@ -51,7 +51,7 @@
             </li>
         </stages>
         <comps>
-            <li Class="StimPacks.Comps.StimPackProp">
+            <li Class="FCP.Core.Stims.HediffCompProperties_Stimpack">
                 <HealPermanentInjuries>false</HealPermanentInjuries>
                 <HealMissingBodyParts>false</HealMissingBodyParts>
                 <RemoveHediffWhenDone>True</RemoveHediffWhenDone>
@@ -88,7 +88,7 @@
             </li>
         </stages>
         <comps>
-            <li Class="StimPacks.Comps.StimPackProp">
+            <li Class="FCP.Core.Stims.HediffCompProperties_Stimpack">
                 <HealPermanentInjuries>true</HealPermanentInjuries>
                 <HealMissingBodyParts>false</HealMissingBodyParts>
                 <RemoveHediffWhenDone>True</RemoveHediffWhenDone>
@@ -121,7 +121,7 @@
             </li>
         </stages>
         <comps>
-            <li Class="StimPacks.Comps.StimPackProp">
+            <li Class="FCP.Core.Stims.HediffCompProperties_Stimpack">
                 <HealPermanentInjuries>false</HealPermanentInjuries>
                 <HealMissingBodyParts>false</HealMissingBodyParts>
                 <RemoveHediffWhenDone>True</RemoveHediffWhenDone>
@@ -143,7 +143,7 @@
         <labelNoun>auto-stimpak</labelNoun>
         <description>An automated delivery system that dispenses a standard stimpak dose when injuries are detected.</description>
         <comps>
-            <li Class="StimPacks.Comps.StimPackProp">
+            <li Class="FCP.Core.Stims.HediffCompProperties_Stimpack">
                 <HealPermanentInjuries>false</HealPermanentInjuries>
                 <HealMissingBodyParts>false</HealMissingBodyParts>
                 <RemoveHediffWhenDone>True</RemoveHediffWhenDone>
@@ -165,7 +165,7 @@
         <labelNoun>auto-super stimpak</labelNoun>
         <description>An automated delivery system loaded with super stimpak formula for rapid emergency healing.</description>
         <comps>
-            <li Class="StimPacks.Comps.StimPackProp">
+            <li Class="FCP.Core.Stims.HediffCompProperties_Stimpack">
                 <HealPermanentInjuries>true</HealPermanentInjuries>
                 <HealMissingBodyParts>false</HealMissingBodyParts>
                 <RemoveHediffWhenDone>True</RemoveHediffWhenDone>
@@ -388,7 +388,7 @@
         <maxSeverity>1.0</maxSeverity>
         <isBad>false</isBad>
         <comps>
-            <li Class="StimPacks.Comps.StimPackProp">
+            <li Class="FCP.Core.Stims.HediffCompProperties_Stimpack">
                 <HealPermanentInjuries>true</HealPermanentInjuries>
                 <HealMissingBodyParts>true</HealMissingBodyParts>
                 <RemoveHediffWhenDone>True</RemoveHediffWhenDone>
